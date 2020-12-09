@@ -167,7 +167,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="squish.lib crblib.lib odbc32.lib odbccp32.lib"
-				OutputFile="..\ReleaseExes/BLPConverter.exe"
+				OutputFile="./Release/BLPConverter.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories=".\crblib,.\squish\lib"
