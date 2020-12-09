@@ -60,7 +60,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>.;..;..\lpng1246;..\zlib-1.2.5;.\crblib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;..;.\lpng1246;.\zlib-1.2.5;.\crblib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -103,7 +103,7 @@
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>.;..;..\lpng1246;..\zlib-1.2.5;.\crblib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;..;.\lpng1246;.\zlib-1.2.5;.\crblib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -139,19 +139,19 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\lpng1246\png.h" />
-    <ClInclude Include="..\lpng1246\pngconf.h" />
-    <ClInclude Include="..\zlib-1.2.5\crc32.h" />
-    <ClInclude Include="..\zlib-1.2.5\deflate.h" />
-    <ClInclude Include="..\zlib-1.2.5\gzguts.h" />
-    <ClInclude Include="..\zlib-1.2.5\inffast.h" />
-    <ClInclude Include="..\zlib-1.2.5\inffixed.h" />
-    <ClInclude Include="..\zlib-1.2.5\inflate.h" />
-    <ClInclude Include="..\zlib-1.2.5\inftrees.h" />
-    <ClInclude Include="..\zlib-1.2.5\trees.h" />
-    <ClInclude Include="..\zlib-1.2.5\zconf.h" />
-    <ClInclude Include="..\zlib-1.2.5\zlib.h" />
-    <ClInclude Include="..\zlib-1.2.5\zutil.h" />
+    <ClInclude Include=".\lpng1246\png.h" />
+    <ClInclude Include=".\lpng1246\pngconf.h" />
+    <ClInclude Include=".\zlib-1.2.5\crc32.h" />
+    <ClInclude Include=".\zlib-1.2.5\deflate.h" />
+    <ClInclude Include=".\zlib-1.2.5\gzguts.h" />
+    <ClInclude Include=".\zlib-1.2.5\inffast.h" />
+    <ClInclude Include=".\zlib-1.2.5\inffixed.h" />
+    <ClInclude Include=".\zlib-1.2.5\inflate.h" />
+    <ClInclude Include=".\zlib-1.2.5\inftrees.h" />
+    <ClInclude Include=".\zlib-1.2.5\trees.h" />
+    <ClInclude Include=".\zlib-1.2.5\zconf.h" />
+    <ClInclude Include=".\zlib-1.2.5\zlib.h" />
+    <ClInclude Include=".\zlib-1.2.5\zutil.h" />
     <ClInclude Include="BLP.h" />
     <ClInclude Include="MemImage.h" />
     <ClInclude Include="palbmp\colorconv.h" />
@@ -160,38 +160,38 @@
     <ClInclude Include="palbmp\paloptimize.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\lpng1246\png.c" />
-    <ClCompile Include="..\lpng1246\pngerror.c" />
-    <ClCompile Include="..\lpng1246\pnggccrd.c" />
-    <ClCompile Include="..\lpng1246\pngget.c" />
-    <ClCompile Include="..\lpng1246\pngmem.c" />
-    <ClCompile Include="..\lpng1246\pngpread.c" />
-    <ClCompile Include="..\lpng1246\pngread.c" />
-    <ClCompile Include="..\lpng1246\pngrio.c" />
-    <ClCompile Include="..\lpng1246\pngrtran.c" />
-    <ClCompile Include="..\lpng1246\pngrutil.c" />
-    <ClCompile Include="..\lpng1246\pngset.c" />
-    <ClCompile Include="..\lpng1246\pngtrans.c" />
-    <ClCompile Include="..\lpng1246\pngvcrd.c" />
-    <ClCompile Include="..\lpng1246\pngwio.c" />
-    <ClCompile Include="..\lpng1246\pngwrite.c" />
-    <ClCompile Include="..\lpng1246\pngwtran.c" />
-    <ClCompile Include="..\lpng1246\pngwutil.c" />
-    <ClCompile Include="..\zlib-1.2.5\adler32.c" />
-    <ClCompile Include="..\zlib-1.2.5\compress.c" />
-    <ClCompile Include="..\zlib-1.2.5\crc32.c" />
-    <ClCompile Include="..\zlib-1.2.5\deflate.c" />
-    <ClCompile Include="..\zlib-1.2.5\gzclose.c" />
-    <ClCompile Include="..\zlib-1.2.5\gzlib.c" />
-    <ClCompile Include="..\zlib-1.2.5\gzread.c" />
-    <ClCompile Include="..\zlib-1.2.5\gzwrite.c" />
-    <ClCompile Include="..\zlib-1.2.5\infback.c" />
-    <ClCompile Include="..\zlib-1.2.5\inffast.c" />
-    <ClCompile Include="..\zlib-1.2.5\inflate.c" />
-    <ClCompile Include="..\zlib-1.2.5\inftrees.c" />
-    <ClCompile Include="..\zlib-1.2.5\trees.c" />
-    <ClCompile Include="..\zlib-1.2.5\uncompr.c" />
-    <ClCompile Include="..\zlib-1.2.5\zutil.c" />
+    <ClCompile Include=".\lpng1246\png.c" />
+    <ClCompile Include=".\lpng1246\pngerror.c" />
+    <ClCompile Include=".\lpng1246\pnggccrd.c" />
+    <ClCompile Include=".\lpng1246\pngget.c" />
+    <ClCompile Include=".\lpng1246\pngmem.c" />
+    <ClCompile Include=".\lpng1246\pngpread.c" />
+    <ClCompile Include=".\lpng1246\pngread.c" />
+    <ClCompile Include=".\lpng1246\pngrio.c" />
+    <ClCompile Include=".\lpng1246\pngrtran.c" />
+    <ClCompile Include=".\lpng1246\pngrutil.c" />
+    <ClCompile Include=".\lpng1246\pngset.c" />
+    <ClCompile Include=".\lpng1246\pngtrans.c" />
+    <ClCompile Include=".\lpng1246\pngvcrd.c" />
+    <ClCompile Include=".\lpng1246\pngwio.c" />
+    <ClCompile Include=".\lpng1246\pngwrite.c" />
+    <ClCompile Include=".\lpng1246\pngwtran.c" />
+    <ClCompile Include=".\lpng1246\pngwutil.c" />
+    <ClCompile Include=".\zlib-1.2.5\adler32.c" />
+    <ClCompile Include=".\zlib-1.2.5\compress.c" />
+    <ClCompile Include=".\zlib-1.2.5\crc32.c" />
+    <ClCompile Include=".\zlib-1.2.5\deflate.c" />
+    <ClCompile Include=".\zlib-1.2.5\gzclose.c" />
+    <ClCompile Include=".\zlib-1.2.5\gzlib.c" />
+    <ClCompile Include=".\zlib-1.2.5\gzread.c" />
+    <ClCompile Include=".\zlib-1.2.5\gzwrite.c" />
+    <ClCompile Include=".\zlib-1.2.5\infback.c" />
+    <ClCompile Include=".\zlib-1.2.5\inffast.c" />
+    <ClCompile Include=".\zlib-1.2.5\inflate.c" />
+    <ClCompile Include=".\zlib-1.2.5\inftrees.c" />
+    <ClCompile Include=".\zlib-1.2.5\trees.c" />
+    <ClCompile Include=".\zlib-1.2.5\uncompr.c" />
+    <ClCompile Include=".\zlib-1.2.5\zutil.c" />
     <ClCompile Include="BLPConverter.cpp" />
     <ClCompile Include="MemImage.cpp" />
     <ClCompile Include="palbmp\colorconv.c" />

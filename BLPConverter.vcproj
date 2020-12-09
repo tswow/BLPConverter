@@ -46,7 +46,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories=".,..,..\lpng1246,..\zlib-1.2.5,.\crblib"
+				AdditionalIncludeDirectories=".,..,.\lpng1246,.\zlib-1.2.5,.\crblib"
 				PreprocessorDefinitions="_CRT_SECURE_NO_DEPRECATE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -140,7 +140,7 @@
 				Optimization="2"
 				InlineFunctionExpansion="2"
 				WholeProgramOptimization="true"
-				AdditionalIncludeDirectories=".,..,..\lpng1246,..\zlib-1.2.5,.\crblib"
+				AdditionalIncludeDirectories=".,..,.\lpng1246,.\zlib-1.2.5,.\crblib"
 				PreprocessorDefinitions="_CRT_SECURE_NO_DEPRECATE"
 				StringPooling="true"
 				RuntimeLibrary="0"
@@ -250,79 +250,79 @@
 			Name="PNGLib"
 			>
 			<File
-				RelativePath="..\lpng1246\png.c"
+				RelativePath=".\lpng1246\png.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\png.h"
+				RelativePath=".\lpng1246\png.h"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngconf.h"
+				RelativePath=".\lpng1246\pngconf.h"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngerror.c"
+				RelativePath=".\lpng1246\pngerror.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pnggccrd.c"
+				RelativePath=".\lpng1246\pnggccrd.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngget.c"
+				RelativePath=".\lpng1246\pngget.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngmem.c"
+				RelativePath=".\lpng1246\pngmem.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngpread.c"
+				RelativePath=".\lpng1246\pngpread.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngread.c"
+				RelativePath=".\lpng1246\pngread.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngrio.c"
+				RelativePath=".\lpng1246\pngrio.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngrtran.c"
+				RelativePath=".\lpng1246\pngrtran.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngrutil.c"
+				RelativePath=".\lpng1246\pngrutil.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngset.c"
+				RelativePath=".\lpng1246\pngset.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngtrans.c"
+				RelativePath=".\lpng1246\pngtrans.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngvcrd.c"
+				RelativePath=".\lpng1246\pngvcrd.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngwio.c"
+				RelativePath=".\lpng1246\pngwio.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngwrite.c"
+				RelativePath=".\lpng1246\pngwrite.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngwtran.c"
+				RelativePath=".\lpng1246\pngwtran.c"
 				>
 			</File>
 			<File
-				RelativePath="..\lpng1246\pngwutil.c"
+				RelativePath=".\lpng1246\pngwutil.c"
 				>
 			</File>
 		</Filter>
@@ -330,107 +330,107 @@
 			Name="ZLib"
 			>
 			<File
-				RelativePath="..\zlib-1.2.5\adler32.c"
+				RelativePath=".\zlib-1.2.5\adler32.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\compress.c"
+				RelativePath=".\zlib-1.2.5\compress.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\crc32.c"
+				RelativePath=".\zlib-1.2.5\crc32.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\crc32.h"
+				RelativePath=".\zlib-1.2.5\crc32.h"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\deflate.c"
+				RelativePath=".\zlib-1.2.5\deflate.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\deflate.h"
+				RelativePath=".\zlib-1.2.5\deflate.h"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\gzclose.c"
+				RelativePath=".\zlib-1.2.5\gzclose.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\gzguts.h"
+				RelativePath=".\zlib-1.2.5\gzguts.h"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\gzlib.c"
+				RelativePath=".\zlib-1.2.5\gzlib.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\gzread.c"
+				RelativePath=".\zlib-1.2.5\gzread.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\gzwrite.c"
+				RelativePath=".\zlib-1.2.5\gzwrite.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\infback.c"
+				RelativePath=".\zlib-1.2.5\infback.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\inffast.c"
+				RelativePath=".\zlib-1.2.5\inffast.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\inffast.h"
+				RelativePath=".\zlib-1.2.5\inffast.h"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\inffixed.h"
+				RelativePath=".\zlib-1.2.5\inffixed.h"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\inflate.c"
+				RelativePath=".\zlib-1.2.5\inflate.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\inflate.h"
+				RelativePath=".\zlib-1.2.5\inflate.h"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\inftrees.c"
+				RelativePath=".\zlib-1.2.5\inftrees.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\inftrees.h"
+				RelativePath=".\zlib-1.2.5\inftrees.h"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\trees.c"
+				RelativePath=".\zlib-1.2.5\trees.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\trees.h"
+				RelativePath=".\zlib-1.2.5\trees.h"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\uncompr.c"
+				RelativePath=".\zlib-1.2.5\uncompr.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\zconf.h"
+				RelativePath=".\zlib-1.2.5\zconf.h"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\zlib.h"
+				RelativePath=".\zlib-1.2.5\zlib.h"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\zutil.c"
+				RelativePath=".\zlib-1.2.5\zutil.c"
 				>
 			</File>
 			<File
-				RelativePath="..\zlib-1.2.5\zutil.h"
+				RelativePath=".\zlib-1.2.5\zutil.h"
 				>
 			</File>
 		</Filter>

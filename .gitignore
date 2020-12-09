@@ -21,3 +21,6 @@ Distrib
 *.lib
 *.exe
 .vs
+Backup
+Debug
+Release
