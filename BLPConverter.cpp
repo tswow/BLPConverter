@@ -374,8 +374,6 @@ void ListFormats()
 	LOG("  blpconverter /UBLP_PAL_A0=PNG_RGB /UPNG_PAL=PNG_RGB myfile.blp\n\n");
 }
 
-#define INDENT "\n           "
-
 void Usage()
 {
 	printf("\nBLPCONVERTER: Converts BLP files to PNGs and vice versa.\n");
@@ -384,22 +382,22 @@ void Usage()
 	printf("BLPCONVERTER [options] sourceFile [targetFile | sourceFile [...]]\n");
 	printf("\n");
 	printf("sourceFile The file to convert.\n");
-	printf("targetFile Optionally, the name of the converted file.  If omitted, target"INDENT"file is given the same name as sourceFile but with the opposite"INDENT"extension.\n");
+	printf("targetFile Optionally, the name of the converted file.  If omitted, target\n           file is given the same name as sourceFile but with the opposite\n           extension.\n");
 	printf("\n");
-	printf("/A(value)  Sets the Alpha threshold when converting from palettized, 8-bit"INDENT"BLPs to palettized PNGs.  Value is a number between 0 and 255."INDENT"Source alpha values below the threshold are fully transparent, above"INDENT"are fully opaque.  Default is %u.\n", MemImage::s_byAlphaThreshold);
-	printf("/C         Create mip test image.  Outputs an image which contains all of the"INDENT"generated mip levels.\n");
+	printf("/A(value)  Sets the Alpha threshold when converting from palettized, 8-bit\n           BLPs to palettized PNGs.  Value is a number between 0 and 255.\n           Source alpha values below the threshold are fully transparent, above\n           are fully opaque.  Default is %u.\n", MemImage::s_byAlphaThreshold);
+	printf("/C         Create mip test image.  Outputs an image which contains all of the\n           generated mip levels.\n");
 	printf("/E         Pause on Error.  (Handy for drag-and-drop use.)\n");
-	printf("/F(format) Forces target Format.  Overrides all other settings, including"INDENT"targetFile extension.\n");
+	printf("/F(format) Forces target Format.  Overrides all other settings, including\n           targetFile extension.\n");
 	//printf("-g(factor) : (PNG->BLP only) Applies a Gamma factor to the entire image.\n   (factor) is a number between 0.0 and 1.0.  If source texture is PNG RGB,\n   an alpha channel will be added.\n");
-	printf("/H         Force WoW cHaracter texture format (palettized, no alpha) when"INDENT"making BLPs.\n");
-	printf("/I         Info mode.  Only outputs file information.  This option"INDENT"automatically sets the /V and /M options.\n");
+	printf("/H         Force WoW cHaracter texture format (palettized, no alpha) when\n           making BLPs.\n");
+	printf("/I         Info mode.  Only outputs file information.  This option\n           automatically sets the /V and /M options.\n");
 	printf("/L         Lists formats and conversion rules.\n");
-	printf("/M         Multi-file mode.  In this mode, multiple files can be input after"INDENT"options.  It is not possible to specify custom output names for them"INDENT"in this mode.\n");
+	printf("/M         Multi-file mode.  In this mode, multiple files can be input after\n           options.  It is not possible to specify custom output names for them\n           in this mode.\n");
 	printf("/N         No mips.  Disables creation of mip levels when saving BLPs.\n");
 	printf("/P         Pause upon completion. (Handy for drag-and-drop use.)\n");
-	printf("/R         Force WoW clothing texture formats.  All created BLPs are palettized"INDENT"and all PNGs are RGB/RGBA.\n");
+	printf("/R         Force WoW clothing texture formats.  All created BLPs are palettized\n           and all PNGs are RGB/RGBA.\n");
 	//printf("-s : Don't preserve alpha.  With this mode, palettized BLPs will always make\n     palettized PNGs (and vice versa).  Note: Alpha channels can be lost with this option.\n");
-	printf("/U(format)=(format)"INDENT"Change conversion rUle.  See /L.\n");
+	printf("/U(format)=(format)\n           Change conversion rUle.  See /L.\n");
 	printf("/V         Verbose mode.  Outputs additional information.\n");
 }
 
