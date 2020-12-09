@@ -20,3 +20,4 @@ Distrib
 *.blp
 *.lib
 *.exe
+.vs
